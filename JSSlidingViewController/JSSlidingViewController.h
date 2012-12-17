@@ -24,7 +24,7 @@ extern NSString * const JSSlidingViewControllerWillBeginDraggingNotification;
 @property (nonatomic, assign) BOOL frontViewControllerHasOpenCloseNavigationBarButton; // Defaults to YES.
 @property (nonatomic, readonly) UIViewController *frontViewController;
 @property (nonatomic, readonly) UIViewController *backViewController;
-@property (nonatomic, weak) id <JSSlidingViewControllerDelegate> delegate;
+@property (nonatomic, assign) id <JSSlidingViewControllerDelegate> delegate;
 @property (nonatomic, assign) BOOL allowManualSliding;
 @property (assign, nonatomic) BOOL useBouncyAnimations;
 @property (assign, nonatomic) BOOL shouldTemporarilyRemoveBackViewControllerWhenClosed;
