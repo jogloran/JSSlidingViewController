@@ -72,7 +72,7 @@ NSString * const JSSlidingViewControllerWillBeginDraggingNotification = @"JSSlid
 @synthesize sliderOpeningWidth = _sliderOpeningWidth;
 @synthesize allowManualSliding = _allowManualSliding;
 
-#define kDefaultVisiblePortion 58.0f
+#define kDefaultVisiblePortion 140
 
 #pragma mark - View Lifecycle
 
