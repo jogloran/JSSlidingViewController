@@ -58,6 +58,9 @@ NSString * const JSSlidingViewControllerWillBeginDraggingNotification = @"JSSlid
 
 @end
 
+#define kDefaultVisiblePortion 140
+const CGFloat JSDefaultVisiblePortion = kDefaultVisiblePortion;
+
 @implementation JSSlidingViewController
 
 @synthesize animating = _animating;
@@ -71,8 +74,6 @@ NSString * const JSSlidingViewControllerWillBeginDraggingNotification = @"JSSlid
 @synthesize delegate;
 @synthesize sliderOpeningWidth = _sliderOpeningWidth;
 @synthesize allowManualSliding = _allowManualSliding;
-
-#define kDefaultVisiblePortion 58.0f
 
 #pragma mark - View Lifecycle
 

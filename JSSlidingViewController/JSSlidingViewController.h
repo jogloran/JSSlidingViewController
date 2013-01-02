@@ -16,6 +16,8 @@ extern NSString * const JSSlidingViewControllerDidOpenNotification;
 extern NSString * const JSSlidingViewControllerDidCloseNotification;
 extern NSString * const JSSlidingViewControllerWillBeginDraggingNotification;
 
+extern const CGFloat JSDefaultVisiblePortion;
+
 @interface JSSlidingViewController : UIViewController
 
 @property (nonatomic, readonly) BOOL animating;
