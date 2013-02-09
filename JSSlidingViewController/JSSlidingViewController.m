@@ -75,6 +75,8 @@ const CGFloat JSDefaultVisiblePortion = kDefaultVisiblePortion;
 @synthesize sliderOpeningWidth = _sliderOpeningWidth;
 @synthesize allowManualSliding = _allowManualSliding;
 
+#define kDefaultVisiblePortion 140
+
 #pragma mark - View Lifecycle
 
 - (id)initWithFrontViewController:(UIViewController *)frontVC backViewController:(UIViewController *)backVC {
